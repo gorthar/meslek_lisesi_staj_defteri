@@ -1,7 +1,12 @@
-:root{
-    --aqua:#7be0ad;
-    --midblue:#AEE5D8;
-    --platinum:#E7E5E5;
-    --llavender:#E5D0E3;
-    --plavender:#E0B0D5;
+:root {
+    --aqua: #7be0ad;
+    --midblue: #AEE5D8;
+    --platinum: #E7E5E5;
+    --llavender: #E5D0E3;
+    --plavender: #E0B0D5;
+}
+
+body {
+    background: linear-gradient(to right, var(--aqua) 20%, var(--plavender) 100%);
+    ;
 }
